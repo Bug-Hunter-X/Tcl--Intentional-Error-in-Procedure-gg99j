@@ -1,0 +1,1 @@
+proc buggyProc {} { puts "This is a buggy proc" ; error "Intentional error" }
