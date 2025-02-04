@@ -1,0 +1,1 @@
+proc buggyProc {} { try { puts "This is a buggy proc" ; error "Intentional error" } catch {err} { puts stderr "Caught error: $err" ; return -code error $err } }
